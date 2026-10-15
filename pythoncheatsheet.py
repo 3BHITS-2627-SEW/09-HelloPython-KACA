@@ -44,3 +44,6 @@ print("Alternativ-Text:", alternativText)
 #int i= 0;
 #printf("Bitte Zahl eingeben:\n");
 #scanf(&i);
+
+eingeleseneZahl = int (input("Bitte Zahl eingeben: "))
+print("ZAhl eingelesen vom Typ", type(eingeleseneZahl))
