@@ -27,3 +27,20 @@ eineVariable = 15
 
 datenTyp = type(eineVariable)
 print("Datentyp von eineVariable: ", datenTyp)
+
+# formartierte Ausgabe
+# C: printf("Zahl lautet %i \n und ist Cool", eineVariable);
+#print("Zahl lautet %i \n und ist Cool", eineVariable)
+einText = f"Zahl lautet {eineVariable**2} \n und ist Cool"
+print("Zahl lautet",(eineVariable**2)," \n und ist Cool!")
+#Typ-Umwandeln
+# (Type-Conversion)
+einString = str((eineVariable**2))# Wandle Zahl in Text um
+alternativText = "Zahl lautet" +einString + "\n und ist Cool!"
+print(einText)
+print("Alternativ-Text:", alternativText)
+
+#Eingabe von der Kommandozeile
+#int i= 0;
+#printf("Bitte Zahl eingeben:\n");
+#scanf(&i);
